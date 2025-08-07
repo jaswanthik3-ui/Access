@@ -3,10 +3,9 @@ module jas_addr::AccessTokenSystem {
     use aptos_framework::timestamp;
     
     struct AccessToken has store, key {
-        token_id: u64,           // Unique identifier for the token
-        expiration_time: u64,    // Timestamp when token expires
-        is_active: bool,         // Status of the token
-        operation_type: u64,     // Type of operation this token allows
+        token_id: u64,
+        expiration_time: u64,     
+        operation_type: u64,
     }
     
     struct TokenCounter has store, key {
@@ -73,3 +72,4 @@ module jas_addr::AccessTokenSystem {
     }
 
 }
+
