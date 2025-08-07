@@ -1,0 +1,15 @@
+[package]
+name = "Access"
+version = "1.0.0"
+authors = []
+
+[addresses]
+jas_addr="0x0a0f8a7ba27f755f65f8573179976fe5f06a593a5bcd624b4f7161dde89e2a35"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
